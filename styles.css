@@ -1,0 +1,115 @@
+/* Add your custom styles here */
+
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f5f5f5;
+ margin: 0;
+ padding: 0;
+}
+
+header {
+ background-color: #333;
+ color: #fff;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header .logo {
+ width: 100px;
+}
+
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+}
+
+nav ul li {
+ margin-right: 10px;
+}
+
+nav ul li a {
+ color: #fff;
+ text-decoration: none;
+ padding: 5px;
+}
+
+.booking-screen {
+ max-width: 600px;
+ margin: 0 auto;
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 5px;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.property-summary {
+ margin-bottom: 20px;
+}
+
+.property-details {
+ display: flex;
+ align-items: center;
+}
+
+.property-details img {
+ width: 100px;
+ margin-right: 20px;
+}
+
+.details {
+ flex-grow: 1;
+}
+
+.details h3 {
+ margin: 0;
+ font-size: 1.2rem;
+}
+
+.details p {
+ margin: 5px 0;
+}
+
+.user-details form {
+ margin-bottom: 20px;
+}
+
+.user-details label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+.user-details input,
+.user-details select {
+ width: 100%;
+ padding: 8px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin-bottom: 10px;
+}
+
+.confirmation p {
+ margin: 5px 0;
+}
+
+.btn-book {
+ background-color: #333;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.btn-book:hover {
+ background-color: #555;
+}
